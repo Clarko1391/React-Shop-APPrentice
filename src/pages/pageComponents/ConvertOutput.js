@@ -41,7 +41,7 @@ function ConvertOutput() {
             <MeasurementContainer>
                 <OutputMeasurement>measDown</OutputMeasurement>
                 <OutputMeasurement>measure</OutputMeasurement>
-                <OutputMeasurement>measup</OutputMeasurement>
+                <OutputMeasurement>measUp</OutputMeasurement>
             </MeasurementContainer>
         </OutputBox>
     )
