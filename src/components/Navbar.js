@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import styled from 'styled-components'
+import img from '../img/shopAPPrenticeLogo.png'
 
 // CSS
 const NavBarContainer = styled.div`
@@ -14,10 +15,13 @@ const NavBarContainer = styled.div`
 
 const Logo = styled.div`
     width: 30%;
-    height: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 80%;
+`
+
+const LogoIMG = styled.div`
+    background: url(${img}) center no-repeat;
+    background-size: contain;
+    height: 100%;
 `
 const NavLinks = styled.ul`
     width: 70%;
@@ -55,7 +59,7 @@ function Navbar() {
         <>
             <NavBarContainer>
                 <Logo>
-                    LOGO HERE
+                    <LogoIMG />
                 </Logo>
                 <NavLinks>
                     <NavLink 
