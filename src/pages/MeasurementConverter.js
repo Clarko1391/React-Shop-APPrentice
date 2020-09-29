@@ -1,40 +1,33 @@
 import React from 'react'
-import './MeasurementConverter.css'
+import styled from 'styled-components'
+import img from '../img/left.png'
+import ConvertInput from './pageComponents/ConvertInput'
+import ConvertOutput from './pageComponents/ConvertOutput'
+import ConvertSelect from './pageComponents/ConvertSelect'
+
+// CSS
+const MeasurementContainer = styled.div`
+    min-height: 85vh;
+    width: 100%;
+    background: url(${img}) center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+`
+
+
 
 function MeasurementConverter() {
     return (
-        <div className='measurementConverter'>
-            <div className="inputContainer">
-                <input type="text" className="convertInput"/>
-                <button className="convertBtn">Change it up</button>
-            </div>
-            <div className="outputContainer">
-                <div className="outputBox">
-                    <h2 className="outputHeader">Decimal (mm)</h2>
-                    <div className="measurementContainer">
-                        <h3 className="decMMDown">One Down</h3>
-                        <h3 className='decMM'>Measurement</h3>
-                        <h3 className='decMMUp'>One Up</h3>
-                    </div>
-                </div>
-                <div className="outputBox">
-                    <h2 className="outputHeader">Decimal (inches)</h2>
-                    <div className="measurementContainer">
-                        <h3 className="decMMDown">One Down</h3>
-                        <h3 className='decMM'>Measurement</h3>
-                        <h3 className='decMMUp'>One Up</h3>
-                    </div>
-                </div>
-                <div className="outputBox">
-                    <h2 className="outputHeader">Fractional (inches)</h2>
-                    <div className="measurementContainer">
-                        <h3 className="decMMDown">One Down</h3>
-                        <h3 className='decMM'>Measurement</h3>
-                        <h3 className='decMMUp'>One Up</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <MeasurementContainer>
+            <ConvertSelect />
+            <ConvertInput />
+            <ConvertOutput />
+            <ConvertOutput />
+            <ConvertOutput />            
+        </MeasurementContainer>
     )
 }
 
