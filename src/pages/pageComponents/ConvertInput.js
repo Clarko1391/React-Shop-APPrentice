@@ -26,10 +26,16 @@ const UserInput = styled.input`
 `
 
 
-function ConvertInput() {
+function ConvertInput(props) {
+
+    
     return (
         <InputContainer>
-            <UserInput type="text" placeholder='Enter your Measurement'/>
+            <UserInput 
+                type="text" 
+                placeholder='Enter your Measurement'
+                onChange={e => props.updateValue(e.target.value)}
+            />
         </InputContainer>
     )
 }

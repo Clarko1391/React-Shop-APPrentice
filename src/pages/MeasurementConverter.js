@@ -1,5 +1,6 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styled from 'styled-components'
+import { fraction, number } from 'mathjs'
 import img from '../img/left.png'
 import ConvertInput from './pageComponents/ConvertInput'
 import ConvertOutput from './pageComponents/ConvertOutput'
@@ -20,10 +21,28 @@ const MeasurementContainer = styled.div`
 
 
 function MeasurementConverter() {
+    // State
+    const [userInput, setUserInput] = useState('');
+
+    // Functions    
+    let measurement;
+
+    if (userInput.includes('/')) {
+        measurement = fraction(userInput);
+        measurement= number(measurement);
+    } else {
+        measurement = number(userInput);
+    }
+
+    console.log(measurement);
+
+
     return (
         <MeasurementContainer>
             <ConvertSelect />
-            <ConvertInput />
+            <ConvertInput 
+                updateValue={(e) => {setUserInput(e)}}
+            />
             <ConvertOutput />
             <ConvertOutput />
             <ConvertOutput />            
