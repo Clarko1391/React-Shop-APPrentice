@@ -21,7 +21,6 @@ function App() {
       <Router>
           <Navbar />
           <Switch>
-              <Route path='/' exact component={MeasurementConverter} />
               <Route path='/MeasurementConverter' component={MeasurementConverter} />
               <Route path='/FractionalCalculator' component={FractionalCalculator} />
               <Route path='/ReferenceManual' component={ReferenceManual} />

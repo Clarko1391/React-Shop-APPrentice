@@ -1,7 +1,7 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
-import styled from 'styled-components'
-import img from '../img/shopAPPrenticeLogo.png'
+import React from 'react';
+import {Link, useLocation} from 'react-router-dom';
+import styled from 'styled-components';
+import img from '../img/shopAPPrenticeLogo.png';
 
 // CSS
 const NavBarContainer = styled.div`
@@ -43,18 +43,19 @@ const NavLink = styled(Link)`
 
 const NavItem = styled.li`
     text-decoration: none;
-    color: #222;
+    color: ${props => props.highlighted ? '#da1622' : '#fcfbfc'};
     font-weight: bold;
-    color: #fcfbfc;
     font-size: 2vh;
     &:hover {
         color: #da1622;
     }
 `
 
-// Function
-
 function Navbar() {
+
+// Variables
+const page = useLocation();
+
     return (
         <>
             <NavBarContainer>
@@ -65,20 +66,26 @@ function Navbar() {
                     <NavLink 
                         to='/MeasurementConverter'
                     >
-                        <NavItem>
+                        <NavItem 
+                            highlighted = {page.pathname === '/MeasurementConverter'}
+                            >
                             Measurement Converter
                         </NavItem>
                     </NavLink>
                     <NavLink 
                         to='/FractionalCalculator'
                     >
-                        <NavItem>
+                        <NavItem 
+                            highlighted = {page.pathname === '/FractionalCalculator'}
+                            >
                             Fractional Calculator
                         </NavItem>
                     </NavLink>
                     <NavLink 
                         to='/ReferenceManual'>
-                        <NavItem>
+                        <NavItem 
+                            highlighted = {page.pathname === '/ReferenceManual'}
+                            >
                             Reference Manual
                         </NavItem>
                     </NavLink>

@@ -10,7 +10,7 @@ const SelectContainer = styled.div`
 `
 
 const CalculatorUnitSelect = styled.select`
-    width: 30%;
+    width: 15%;
     height: 40px;
     display: -webkit-box;
     -webkit-box-pack: center;
