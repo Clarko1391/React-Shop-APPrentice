@@ -15,16 +15,35 @@ const CalculatorContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+`
+const InputContainer = styled.div`
+    min-height: 42.5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+`
+const OutputContainer = styled.div`
+    min-height: 42.5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 `
 
 function FractionalCalculator() {
     return (
         <CalculatorContainer>
-            <CalculatorInput />
-            <CalculatorSelect />
-            <CalculatorInput />
-            <CalculatorOutput />
+            <InputContainer>
+                <CalculatorInput />
+                <CalculatorSelect />
+                <CalculatorInput />
+            </InputContainer>
+            <OutputContainer>
+                <CalculatorOutput />
+            </OutputContainer>
         </CalculatorContainer>
     )
 }

@@ -11,7 +11,7 @@ const SelectContainer = styled.div`
 
 const CalculatorUnitSelect = styled.select`
     width: 15%;
-    height: 40px;
+    height: 20px;
     display: -webkit-box;
     -webkit-box-pack: center;
     background-color: #da1622;
