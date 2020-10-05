@@ -34,14 +34,14 @@ const OutputMeasurement = styled.h3`
 `
 
 
-function ConvertOutput() {
+function ConvertOutput(props) {
     return (
         <OutputBox>
-            <OutputHeader>header</OutputHeader>
+            <OutputHeader>{props.header}</OutputHeader>
             <MeasurementContainer>
-                <OutputMeasurement>measDown</OutputMeasurement>
-                <OutputMeasurement>measure</OutputMeasurement>
-                <OutputMeasurement>measUp</OutputMeasurement>
+                <OutputMeasurement>{props.measDown}</OutputMeasurement>
+                <OutputMeasurement>{props.measure}</OutputMeasurement>
+                <OutputMeasurement>{props.measUp}</OutputMeasurement>
             </MeasurementContainer>
         </OutputBox>
     )

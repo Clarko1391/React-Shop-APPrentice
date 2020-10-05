@@ -20,10 +20,14 @@ const ConvertUnitSelect = styled.select`
     }
 `
 
-function ConvertSelect() {
+function ConvertSelect(props) {
     return (
         <SelectContainer>
-            <ConvertUnitSelect name="convertUnit" id="convertUnit">
+            <ConvertUnitSelect 
+                name="convertUnit" 
+                id="convertUnit"
+                onChange={(e)=> props.updateUnit(e.target.value)}
+                >
                 <option value="MMToInches">mm to Inches</option>
                 <option value="inchesToMM">Inches to mm</option>
             </ConvertUnitSelect>
