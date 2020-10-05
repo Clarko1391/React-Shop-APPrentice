@@ -27,7 +27,7 @@ const UserInput = styled.input`
 
 const ButtonContainer = styled.div`
     width: 80%;
-    height: 40px;
+    height: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
