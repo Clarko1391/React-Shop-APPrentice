@@ -19,7 +19,7 @@ const MeasurementContainer = styled.div`
 `
 
 function MeasurementConverter() {
-    // State & Variables
+    // State
     const [userInput, setUserInput] = useState("");
     const [convertUnitValue, setConvertUnitValue] = useState('MMtoInches');
     const [decMM, setDecMM] = useState("Measurement");

@@ -5,7 +5,7 @@ import styled from 'styled-components'
 const OutputBox = styled.div`
     width: 80%;
     height: 15vh;
-    max-height: 120px;
+    height: 120px;
     background-color: rgba(78,77,78, 0.5);
     display: flex;
     justify-content: space-evenly;
@@ -35,16 +35,16 @@ const OutputMeasurement = styled.h3`
 `
 
 
-function CalculatorOutput() {
+function CalculatorOutput(props) {
     return (
         <OutputBox>
             <MeasurementContainer>
-                <OutputHeader>header</OutputHeader>
-                <OutputMeasurement>result</OutputMeasurement>
+                <OutputHeader>Decimal Result</OutputHeader>
+                <OutputMeasurement>{props.decResult}</OutputMeasurement>
             </MeasurementContainer>
             <MeasurementContainer>
-                <OutputHeader>header</OutputHeader>
-                <OutputMeasurement>result</OutputMeasurement>
+                <OutputHeader>Fractional Result</OutputHeader>
+                <OutputMeasurement>{props.fracResult}</OutputMeasurement>
             </MeasurementContainer>
         </OutputBox>
     )

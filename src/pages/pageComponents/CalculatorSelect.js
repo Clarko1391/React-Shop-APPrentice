@@ -11,11 +11,12 @@ const SelectContainer = styled.div`
 
 const CalculatorUnitSelect = styled.select`
     width: 15%;
-    height: 20px;
+    height: 30px;
     display: -webkit-box;
     -webkit-box-pack: center;
     background-color: #da1622;
     color: #fcfbfc;
+    font-size: 4vh;
     border-radius: 4px;
     border: none;
     text-align: center;
@@ -29,10 +30,14 @@ const CalculatorOption = styled.option`
     justify-content: center;
 `
 
-function CalculatorSelect() {
+function CalculatorSelect(props) {
     return (
         <SelectContainer>
-            <CalculatorUnitSelect name="calcUnit" id="calcUnit">
+            <CalculatorUnitSelect 
+                name="calcUnit" 
+                id="calcUnit"
+                onChange={(e)=> props.updateUnit(e.target.value)}
+                >
                 <CalculatorOption value="+">+</CalculatorOption>
                 <CalculatorOption value="-">-</CalculatorOption>
                 <CalculatorOption value="x">x</CalculatorOption>
