@@ -6,6 +6,10 @@ import Footer from './components/Footer';
 import MeasurementConverter from './pages/MeasurementConverter'
 import FractionalCalculator from './pages/FractionalCalculator'
 import ReferenceManual from './pages/ReferenceManual'
+import TapAndDie from './pages/refManualPages/TapAndDie'
+import WrenchSize from './pages/refManualPages/WrenchSize'
+import DrillSize from './pages/refManualPages/DrillSize'
+import UserAdd from './pages/refManualPages/UserAdd'
 
 // CSS
 const Body = styled.div`
@@ -24,7 +28,11 @@ function App() {
               <Route path='/' exact component={MeasurementConverter} />
               <Route path='/MeasurementConverter' component={MeasurementConverter} />
               <Route path='/FractionalCalculator' component={FractionalCalculator} />
-              <Route path='/ReferenceManual' component={ReferenceManual} />
+              <Route path='/ReferenceManual' exact component={ReferenceManual} />
+              <Route path='/ReferenceManual/TapAndDie' component={TapAndDie} />
+              <Route path='/ReferenceManual/WrenchSize' component={WrenchSize} />
+              <Route path='/ReferenceManual/DrillSize' component={DrillSize} />
+              <Route path='/ReferenceManual/UserAdd' component={UserAdd} />
           </Switch>
           <Footer />
       </Router>

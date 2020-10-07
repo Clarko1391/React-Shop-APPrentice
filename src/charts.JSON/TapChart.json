@@ -1,0 +1,242 @@
+[
+  {
+    "tapSize": "Tap Size",
+    "diamSAE": "Diameter (inch)",
+    "diamMetric": "Diameter (mm)",
+    "tpi": "Threads Per Inch",
+    "threadPitch": "Thread Pitch (mm)",
+    "tapDrillSize": "Tap Drill Size"
+  },
+ {
+   "tapSize": "#00-90",
+   "diamSAE": "0.0470",
+   "diamMetric": 1.1938,
+   "tpi": 90,
+   "threadPitch": 0.282,
+   "tapDrillSize": "#65"
+ },
+ {
+   "tapSize": "#0-80",
+   "diamSAE": "0.0600",
+   "diamMetric": 1.1524,
+   "tpi": 80,
+   "threadPitch": 0.318,
+   "tapDrillSize": "3/64"
+ },
+ {
+   "tapSize": "#1-64",
+   "diamSAE": "0/0730",
+   "diamMetric": 1.8542,
+   "tpi": 64,
+   "threadPitch": 0.397,
+   "tapDrillSize": "#52"
+ },
+ {
+   "tapSize": "#1-72",
+   "diamSAE": "0.0730",
+   "diamMetric": 1.8542,
+   "tpi": 72,
+   "threadPitch": 0.353,
+   "tapDrillSize": "#53"
+ },
+ {
+   "tapSize": "#2-56",
+   "diamSAE": "0.0860",
+   "diamMetric": 2.1844,
+   "tpi": 56,
+   "threadPitch": 0.454,
+   "tapDrillSize": "#50"
+ },
+ {
+   "tapSize": "#2-64",
+   "diamSAE": "0.0860",
+   "diamMetric": 2.1844,
+   "tpi": 64,
+   "threadPitch": 0.397,
+   "tapDrillSize": "#50"
+ },
+ {
+   "tapSize": "#3-48",
+   "diamSAE": "0.0990",
+   "diamMetric": 2.5146,
+   "tpi": 48,
+   "threadPitch": 0.529,
+   "tapDrillSize": "#47"
+ },
+ {
+   "tapSize": "#3-56",
+   "diamSAE": "0.0990",
+   "diamMetric": 2.5146,
+   "tpi": 56,
+   "threadPitch": 0.454,
+   "tapDrillSize": "#45"
+ },
+ {
+   "tapSize": "#4-40",
+   "diamSAE": "0.1120",
+   "diamMetric": 2.8448,
+   "tpi": 40,
+   "threadPitch": 0.635,
+   "tapDrillSize": "#43"
+ },
+ {
+   "tapSize": "#4-48",
+   "diamSAE": "0.1120",
+   "diamMetric": 2.8448,
+   "tpi": 48,
+   "threadPitch": 0.529,
+   "tapDrillSize": "#42"
+ },
+ {
+   "tapSize": "#5-40",
+   "diamSAE": "0.1250",
+   "diamMetric": 3.175,
+   "tpi": 40,
+   "threadPitch": 0.635,
+   "tapDrillSize": "#39"
+ },
+ {
+   "tapSize": "#5-44",
+   "diamSAE": "0.1250",
+   "diamMetric": 3.175,
+   "tpi": 40,
+   "threadPitch": 0.577,
+   "tapDrillSize": "#37"
+ },
+ {
+   "tapSize": "#6-32",
+   "diamSAE": "0.1380",
+   "diamMetric": 3.5052,
+   "tpi": 32,
+   "threadPitch": 0.794,
+   "tapDrillSize": "#36"
+ },
+ {
+   "tapSize": "#6-40",
+   "diamSAE": "0.1380",
+   "diamMetric": 3.5052,
+   "tpi": 40,
+   "threadPitch": 0.635,
+   "tapDrillSize": "#33"
+ },
+ {
+   "tapSize": "#8-32",
+   "diamSAE": "0.1640",
+   "diamMetric": 4.1656,
+   "tpi": 32,
+   "threadPitch": 0.794,
+   "tapDrillSize": "#29"
+ },
+ {
+   "tapSize": "#8-36",
+   "diamSAE": "0.1640",
+   "diamMetric": 4.1656,
+   "tpi": 36,
+   "threadPitch": 0.706,
+   "tapDrillSize": "#29"
+ },
+ {
+   "tapSize": "#10-32",
+   "diamSAE": "0.1900",
+   "diamMetric": 4.826,
+   "tpi": 32,
+   "threadPitch": 0.794,
+   "tapDrillSize": "#21"
+ },
+ {
+   "tapSize": "#10-24",
+   "diamSAE": "0.1900",
+   "diamMetric": 4.826,
+   "tpi": 24,
+   "threadPitch": 1.058,
+   "tapDrillSize": "#25"
+ },
+ {
+   "tapSize": "#12-28",
+   "diamSAE": "0.2160",
+   "diamMetric": 5.4864,
+   "tpi": 28,
+   "threadPitch": 0.907,
+   "tapDrillSize": "#15"
+ },
+ {
+   "tapSize": "1/4-20",
+   "diamSAE": "0.2500",
+   "diamMetric": 6.35,
+   "tpi": 20,
+   "threadPitch": 1.27,
+   "tapDrillSize": "#7"
+ },
+ {
+   "tapSize": "1/4-28",
+   "diamSAE": "0.2500",
+   "diamMetric": 6.35,
+   "tpi": 28,
+   "threadPitch": 0.907,
+   "tapDrillSize": "#3"
+ },
+ {
+   "tapSize": "5/16-18",
+   "diamSAE": "0.3125",
+   "diamMetric": 7.9375,
+   "tpi": 18,
+   "threadPitch": 1.411,
+   "tapDrillSize": "F"
+ },
+ {
+   "tapSize": "5/16-24",
+   "diamSAE": "0.3125",
+   "diamMetric": 7.9375,
+   "tpi": 24,
+   "threadPitch": 1.058,
+   "tapDrillSize": "I"
+ },
+ {
+   "tapSize": "3/8-24",
+   "diamSAE": "0.3750",
+   "diamMetric": 9.525,
+   "tpi": 24,
+   "threadPitch": 1.058,
+   "tapDrillSize": "Q"
+ },
+ {
+   "tapSize": "3/8-16",
+   "diamSAE": "0.3750",
+   "diamMetric": 9.525,
+   "tpi": 16,
+   "threadPitch": 1.588,
+   "tapDrillSize": "5/16\""
+ },
+ {
+   "tapSize": "7/16-14",
+   "diamSAE": "0.4375",
+   "diamMetric": 11.1125,
+   "tpi": 14,
+   "threadPitch": 1.814,
+   "tapDrillSize": "U"
+ },
+ {
+   "tapSize": "7/16-20",
+   "diamSAE": "0.4375",
+   "diamMetric": 11.1125,
+   "tpi": 20,
+   "threadPitch": 1.27,
+   "tapDrillSize": "25/64\""
+ },
+ {
+   "tapSize": "1/2-20",
+   "diamSAE": "0.5000",
+   "diamMetric": 12.7,
+   "tpi": 20,
+   "threadPitch": 1.27,
+   "tapDrillSize": "29/64\""
+ },
+ {
+   "tapSize": "1/2-13",
+   "diamSAE": "0.5000",
+   "diamMetric": 12.7,
+   "tpi": 13,
+   "threadPitch": 1.954,
+   "tapDrillSize": "27/64\""
+ }
+]

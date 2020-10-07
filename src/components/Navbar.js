@@ -35,6 +35,7 @@ const NavLinks = styled.ul`
     padding: 0;
     box-sizing: border-box;
     padding-right: 10px;
+    margin: 0px;
 `
 
 const NavLink = styled(Link)`
