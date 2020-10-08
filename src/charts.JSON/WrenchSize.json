@@ -1,217 +1,222 @@
 [
+  {
+  "boltDiam": "Bolt Diameter",
+  "SAE": "Bolt Size (inch)",
+  "metric": "Bolt Size (mm)"
+},
  {
-   "Bolt Diameter": "1/8",
-   "SAE (inch)": "5/16",
-   "Metric (mm)": 8
+   "boltDiam": "1/8",
+   "SAE": "5/16",
+   "metric": 8
  },
  {
-   "Bolt Diameter": "3/16",
-   "SAE (inch)": "3/8",
-   "Metric (mm)": 10
+   "boltDiam": "3/16",
+   "SAE": "3/8",
+   "metric": 10
  },
  {
-   "Bolt Diameter": "1/4",
-   "SAE (inch)": "7/16",
-   "Metric (mm)": 11
+   "boltDiam": "1/4",
+   "SAE": "7/16",
+   "metric": 11
  },
  {
-   "Bolt Diameter": "5/16",
-   "SAE (inch)": "1/2",
-   "Metric (mm)": 13
+   "boltDiam": "5/16",
+   "SAE": "1/2",
+   "metric": 13
  },
  {
-   "Bolt Diameter": "3/8",
-   "SAE (inch)": "9/16",
-   "Metric (mm)": 14
+   "boltDiam": "3/8",
+   "SAE": "9/16",
+   "metric": 14
  },
  {
-   "Bolt Diameter": "7/16",
-   "SAE (inch)": "5/8",
-   "Metric (mm)": 16
+   "boltDiam": "7/16",
+   "SAE": "5/8",
+   "metric": 16
  },
  {
-   "Bolt Diameter": "1/2",
-   "SAE (inch)": "3/4",
-   "Metric (mm)": 19
+   "boltDiam": "1/2",
+   "SAE": "3/4",
+   "metric": 19
  },
  {
-   "Bolt Diameter": "9/16",
-   "SAE (inch)": "13/16",
-   "Metric (mm)": 21
+   "boltDiam": "9/16",
+   "SAE": "13/16",
+   "metric": 21
  },
  {
-   "Bolt Diameter": "",
-   "SAE (inch)": "7/8",
-   "Metric (mm)": 22
+   "boltDiam": "",
+   "SAE": "7/8",
+   "metric": 22
  },
  {
-   "Bolt Diameter": "5/8",
-   "SAE (inch)": "15/16",
-   "Metric (mm)": 24
+   "boltDiam": "5/8",
+   "SAE": "15/16",
+   "metric": 24
  },
  {
-   "Bolt Diameter": "",
-   "SAE (inch)": "1",
-   "Metric (mm)": 25
+   "boltDiam": "",
+   "SAE": "1",
+   "metric": 25
  },
  {
-   "Bolt Diameter": "3/4",
-   "SAE (inch)": "1-1/8",
-   "Metric (mm)": 29
+   "boltDiam": "3/4",
+   "SAE": "1-1/8",
+   "metric": 29
  },
  {
-   "Bolt Diameter": "",
-   "SAE (inch)": "1-11/16",
-   "Metric (mm)": 32
+   "boltDiam": "",
+   "SAE": "1-11/16",
+   "metric": 32
  },
  {
-   "Bolt Diameter": "7/8",
-   "SAE (inch)": "1-5/16",
-   "Metric (mm)": 34
+   "boltDiam": "7/8",
+   "SAE": "1-5/16",
+   "metric": 34
  },
  {
-   "Bolt Diameter": "",
-   "SAE (inch)": "1-3/8",
-   "Metric (mm)": 35
+   "boltDiam": "",
+   "SAE": "1-3/8",
+   "metric": 35
  },
  {
-   "Bolt Diameter": "1",
-   "SAE (inch)": "1-1/2",
-   "Metric (mm)": 38
+   "boltDiam": "1",
+   "SAE": "1-1/2",
+   "metric": 38
  },
  {
-   "Bolt Diameter": "",
-   "SAE (inch)": "1-5/8",
-   "Metric (mm)": 41
+   "boltDiam": "",
+   "SAE": "1-5/8",
+   "metric": 41
  },
  {
-   "Bolt Diameter": "1-1/8",
-   "SAE (inch)": "1-11/16",
-   "Metric (mm)": 43
+   "boltDiam": "1-1/8",
+   "SAE": "1-11/16",
+   "metric": 43
  },
  {
-   "Bolt Diameter": "",
-   "SAE (inch)": "1-3/4",
-   "Metric (mm)": 45
+   "boltDiam": "",
+   "SAE": "1-3/4",
+   "metric": 45
  },
  {
-   "Bolt Diameter": "1-1/4",
-   "SAE (inch)": "1-7/8",
-   "Metric (mm)": 48
+   "boltDiam": "1-1/4",
+   "SAE": "1-7/8",
+   "metric": 48
  },
  {
-   "Bolt Diameter": "1-3/8",
-   "SAE (inch)": "2",
-   "Metric (mm)": 51
+   "boltDiam": "1-3/8",
+   "SAE": "2",
+   "metric": 51
  },
  {
-   "Bolt Diameter": "1-1/2",
-   "SAE (inch)": "2-1/4",
-   "Metric (mm)": 57
+   "boltDiam": "1-1/2",
+   "SAE": "2-1/4",
+   "metric": 57
  },
  {
-   "Bolt Diameter": "1-5/8",
-   "SAE (inch)": "2-1/2",
-   "Metric (mm)": 64
+   "boltDiam": "1-5/8",
+   "SAE": "2-1/2",
+   "metric": 64
  },
  {
-   "Bolt Diameter": "1-3/4",
-   "SAE (inch)": "2-5/8",
-   "Metric (mm)": 67
+   "boltDiam": "1-3/4",
+   "SAE": "2-5/8",
+   "metric": 67
  },
  {
-   "Bolt Diameter": "",
-   "SAE (inch)": "2-3/4",
-   "Metric (mm)": 70
+   "boltDiam": "",
+   "SAE": "2-3/4",
+   "metric": 70
  },
  {
-   "Bolt Diameter": "1-7/8",
-   "SAE (inch)": "2-15/16",
-   "Metric (mm)": 75
+   "boltDiam": "1-7/8",
+   "SAE": "2-15/16",
+   "metric": 75
  },
  {
-   "Bolt Diameter": "",
-   "SAE (inch)": "3",
-   "Metric (mm)": 76
+   "boltDiam": "",
+   "SAE": "3",
+   "metric": 76
  },
  {
-   "Bolt Diameter": "2",
-   "SAE (inch)": "3-1/8",
-   "Metric (mm)": 80
+   "boltDiam": "2",
+   "SAE": "3-1/8",
+   "metric": 80
  },
  {
-   "Bolt Diameter": "",
-   "SAE (inch)": "3-1/4",
-   "Metric (mm)": 83
+   "boltDiam": "",
+   "SAE": "3-1/4",
+   "metric": 83
  },
  {
-   "Bolt Diameter": "2-1/4",
-   "SAE (inch)": "3-1/2",
-   "Metric (mm)": 89
+   "boltDiam": "2-1/4",
+   "SAE": "3-1/2",
+   "metric": 89
  },
  {
-   "Bolt Diameter": "",
-   "SAE (inch)": "3-3/4",
-   "Metric (mm)": 95
+   "boltDiam": "",
+   "SAE": "3-3/4",
+   "metric": 95
  },
  {
-   "Bolt Diameter": "2-1/2",
-   "SAE (inch)": "3-7/8",
-   "Metric (mm)": 99
+   "boltDiam": "2-1/2",
+   "SAE": "3-7/8",
+   "metric": 99
  },
  {
-   "Bolt Diameter": "",
-   "SAE (inch)": "4",
-   "Metric (mm)": 102
+   "boltDiam": "",
+   "SAE": "4",
+   "metric": 102
  },
  {
-   "Bolt Diameter": "2-3/4",
-   "SAE (inch)": "4-1/4",
-   "Metric (mm)": 108
+   "boltDiam": "2-3/4",
+   "SAE": "4-1/4",
+   "metric": 108
  },
  {
-   "Bolt Diameter": "",
-   "SAE (inch)": "4-1/2",
-   "Metric (mm)": 114
+   "boltDiam": "",
+   "SAE": "4-1/2",
+   "metric": 114
  },
  {
-   "Bolt Diameter": "3",
-   "SAE (inch)": "4-5/8",
-   "Metric (mm)": 118
+   "boltDiam": "3",
+   "SAE": "4-5/8",
+   "metric": 118
  },
  {
-   "Bolt Diameter": "3-1/4",
-   "SAE (inch)": "5",
-   "Metric (mm)": 127
+   "boltDiam": "3-1/4",
+   "SAE": "5",
+   "metric": 127
  },
  {
-   "Bolt Diameter": "3-1/2",
-   "SAE (inch)": "5-3/8",
-   "Metric (mm)": 137
+   "boltDiam": "3-1/2",
+   "SAE": "5-3/8",
+   "metric": 137
  },
  {
-   "Bolt Diameter": "",
-   "SAE (inch)": "5-1/2",
-   "Metric (mm)": 140
+   "boltDiam": "",
+   "SAE": "5-1/2",
+   "metric": 140
  },
  {
-   "Bolt Diameter": "3-3/4",
-   "SAE (inch)": "5-3/4",
-   "Metric (mm)": 146
+   "boltDiam": "3-3/4",
+   "SAE": "5-3/4",
+   "metric": 146
  },
  {
-   "Bolt Diameter": "",
-   "SAE (inch)": "6",
-   "Metric (mm)": 152
+   "boltDiam": "",
+   "SAE": "6",
+   "metric": 152
  },
  {
-   "Bolt Diameter": "",
-   "SAE (inch)": "6-1/2",
-   "Metric (mm)": 165
+   "boltDiam": "",
+   "SAE": "6-1/2",
+   "metric": 165
  },
  {
-   "Bolt Diameter": "",
-   "SAE (inch)": "7",
-   "Metric (mm)": 178
+   "boltDiam": "",
+   "SAE": "7",
+   "metric": 178
  }
 ]
