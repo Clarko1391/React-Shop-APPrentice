@@ -14,8 +14,8 @@ const NavBarContainer = styled.div`
 `
 
 const Logo = styled.div`
-    width: 30%;
-    height: 80%;
+    width: 15%;
+    height: 95%;
 `
 
 const LogoIMG = styled.div`
