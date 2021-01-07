@@ -1,5 +1,7 @@
 This is the first re-build of my Shop APPrentice app, it was written using React.js and allowed me to eliminate most of the HTML and CSS code from the original version. I also used a JS library called Styled-Components to reduce the amount of CSS I had to write. These changes resulted in a significant reduction in the amount of code required and also made the project much more scalable and stable as I was able to reuse components to build the structure and functionality instead of hand-coding each page and adding more room for error.
 
+![Screen Cap](https://github.com/Clarko1391/React-Shop-APPrentice/blob/master/src/img/shopAPPrenticeScreenCap2.png)
+
 This app requires Node Package Manager (NPM) to run, the latest version of which can be found here https://www.npmjs.com/get-npm
 
 You can clone the repo and follow the directions below to run an offline version of this app on your local machine.
